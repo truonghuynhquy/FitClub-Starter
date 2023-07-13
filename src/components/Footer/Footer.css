@@ -1,0 +1,42 @@
+.Footer-container {
+    position: relative;
+}
+hr {
+    border: 1px solid var(--lightgray);
+    height: 0;
+}
+.footer {
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    justify-content: center;
+}
+.footer,
+.social-links {
+    display: flex;
+    gap: 4rem;
+}
+.social-links > img {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+.logo-f > img {
+    width: 10rem;
+}
+
+.Footer-container > :nth-child(3),
+.Footer-container > :nth-child(4) {
+    bottom: 0;
+    filter: blur(200px);
+    height: 12rem;
+    width: 26rem;
+}
+.Footer-container > :nth-child(3) {
+    background: red;
+    right: 15%;
+}
+.Footer-container > :nth-child(4) {
+    background: #ff7300;
+    left: 15%;
+}
